@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace RazorPagesPizza.Pages;
 
-public class PrivacyModel : PageModel
+public class ReactModel : PageModel
 {
-    private readonly ILogger<PrivacyModel> _logger;
+    private readonly ILogger<ReactModel> _logger;
 
-    public PrivacyModel(ILogger<PrivacyModel> logger)
+    public ReactModel(ILogger<ReactModel> logger)
     {
         _logger = logger;
     }
